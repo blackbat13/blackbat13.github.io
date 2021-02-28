@@ -151,16 +151,18 @@ a:hover, a:focus, a:active {
   color: #fff;
 }
 
-/*#about {*/
-/*  background-image: url("../img/torun.jpg");*/
-/*  background-position: center;*/
-/*  background-repeat: no-repeat;*/
-/*  background-size: cover;*/
-/*}*/
+#about {
+  background-image: url("../img/torun.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-/*#about > div {*/
-/*  width: 100%;*/
-/*  padding: 15px;*/
-/*  background-color: rgba(255,255,255, 0.8);*/
-/*  color: black;*/
-/*}*/
+#about > div {
+  width: 100%;
+  padding: 15px;
+  background-color: rgba(255,255,255, 0.8);
+  color: black;
+  margin-bottom: 0 !important;
+  text-align: center;
+}
