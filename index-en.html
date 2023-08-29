@@ -79,7 +79,9 @@
                 <div class="subheading mb-5">
                     <a href="mailto:d.kurpiewski@proton.me">d.kurpiewski@proton.me</a>
                 </div>
-                <p id="main-bio" class="mb-5"></p>
+                <h2 class="mb-5">I am the
+                    <span id="main-bio" class="text-primary"></span>
+                </h2>
                 <ul class="list-inline list-social-icons mb-0">
                     <li class="list-inline-item">
                         <a href="https://www.facebook.com/damian.kurpiewski.14">
@@ -596,8 +598,12 @@
             );
 
             var typed = new Typed('#main-bio', {
-                strings: ["Teacher", "Programmer", "Scientist", "Blackbat"],
+                strings: ["Teacher", "Programmer", "Scientist"],
                 typeSpeed: 50,
+                backSpeed: 40,
+                backDelay: 1000,
+                loop: true,
+                showCursor: false,
             });
         });
     </script>
